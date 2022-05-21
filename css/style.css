@@ -1,0 +1,349 @@
+body{
+    width: 1440px;
+    /* background-color: #000000; */
+    margin: 0 auto;
+}
+
+/* HEADER 
+=============================*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 138px 23px 136px;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.header__title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-name-title);
+    line-height: var(--line-height-name-title);
+    letter-spacing: var(--letter-spacing-title);
+    text-transform: uppercase;
+    color: #232323;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.header__menu-link{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-text);
+    line-height: var(--line-height-header-links);
+    text-align: center;
+    letter-spacing: var(--letter-spacing-text);
+    color: #818181;
+}
+
+.header__menu-contact-link{
+    margin-left: 2px;
+}
+
+/* MAIN SECTION 
+=============================*/
+.main-section{
+    padding: 75px 138px 99px 136px;
+    display: flex;
+    /* background-color: #FFFFFF; */
+}
+
+.main-section__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section__content-article{
+    margin-bottom: 88px;
+}
+
+
+/* ARTICLE
+====================*/
+.main-section__content-article__title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-article-title);
+    line-height: var(--line-height-article-title);
+    letter-spacing: var(--letter-spacing-title);
+    text-transform: uppercase;
+}
+
+.main-section__content-article__last-update{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-text);
+    line-height: var(--line-height-header-links);
+    letter-spacing: var(--letter-spacing-text);
+    color: #818181;
+}
+
+.main-section__content-article__texts{
+    margin-top: 47px;
+}
+
+.main-section__content-article__img{
+    width: 239px;
+    height: 255px;
+    float: left;
+    margin-right: 41px;
+    margin-bottom: 17px;
+}
+
+.main-section__content-article__text{
+    float: left;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-text);
+    line-height: var(--line-height-article-text);
+    letter-spacing: var(--letter-spacing-text);
+}
+
+.main-section__content-article__text:nth-child(2){
+    width: 496px;
+    margin-bottom: 10px;
+}
+
+.main-section__content-article__text:nth-child(3){
+    width: 511px;
+    margin-bottom: 11px;
+}
+
+.main-section__content-article__text:nth-child(4){
+    width: 792px;
+    margin-bottom: 17px;
+}
+
+.main-section__content-article__text:nth-child(5){
+    width: 792px;
+    margin-bottom: 17px;
+}
+
+.main-section__content-article__text:nth-child(6){
+    width: 792px;
+}
+
+
+/* COMMENT
+====================*/
+.main-section__content-comment{
+    width: 792px;
+    height: 447px; 
+    padding: 54px 116px 64px 116px;
+    background-color: #F9F9F9;
+    border: 1px dashed #CCCCCC;
+}
+
+.main-section__content-comment__title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-min-title);
+    line-height: var(--line-height-comment-reg);
+    letter-spacing: var(--letter-spacing-title);
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.main-section__content-comment__inputs{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.main-section__content-comment__input{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 18px 19px 17px 19px;
+}
+.main-section__content-comment__input:focus{
+    outline: 1px solid #3D8B74;
+}
+
+.comment__input-one{
+    width: 215px;
+    height: 55px;
+    margin-right: 22px;
+}
+
+.comment__input-two{
+    width: 323px;
+    height: 55px;
+}
+
+.main-section__content-comment__input::placeholder{
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-min-text);
+    line-height: var(--line-height-comment-reg);
+    letter-spacing: var(--letter-spacing-text);
+    color: #777777;
+}
+
+.main-section__content-comment__textarea{
+    width: 100%;
+    height: 144px;
+    resize: none;
+    padding: 17px 20px 17px 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-min-text);
+    line-height: var(--line-height-comment-more);
+    letter-spacing: var(--letter-spacing-text);
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+}
+
+.main-section__content-comment__textarea:focus{
+    outline: 1px solid #3D8B74;
+}
+
+.main-section__content-comment__btn{
+    padding: 21px 69px 18px 70px;
+    background-color: #3D8B74;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-min-text);
+    line-height: var(--line-height-comment-min);
+    display: flex;
+    align-items: center;
+    letter-spacing: var(--letter-spacing-title);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* ASIDE
+====================*/
+.main-section__aside{
+    width: 277px;
+}
+
+.main-section__aside-categories{
+    width: 100%;
+    padding: 37px 105px 36px 32px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 94px;
+}
+
+.main-section__aside-categories__title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-min-title);
+    line-height: var(--line-height-comment-reg);
+    letter-spacing: var(--letter-spacing-title);
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.main-section__aside-categories__menu-link{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-min-text);
+    line-height: var(--line-height-aside-link);
+    letter-spacing: var(--letter-spacing-text);
+}
+
+.main-section__aside-categories__menu-link:hover{
+    font-weight: 800;
+    color: #3D8B74;
+}
+
+.main-section__aside-folow__title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-min-title);
+    line-height: var(--line-height-aside-folow-title);
+    letter-spacing: var(--letter-spacing-title);
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.main-section__aside-folow__range{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 17px;
+    row-gap: 18px;
+}
+
+
+/* FOOTER 
+=============================*/
+.footer{
+    background-color: #232323;
+}
+
+.footer__social-block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 38px 530px 40px 530px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 23px;
+}
+
+.footer__logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.footer__title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-name-title);
+    line-height: var(--line-height-name-title);
+    letter-spacing: var(--letter-spacing-title);
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__social-icons{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 28px;
+}
+
+.footer__social-icon{
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+.footer__copyright{
+    padding: 35px 533px 37px 533px;
+    background-color: #323232;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-min-text);
+    line-height: var(--line-height-comment-reg);
+    letter-spacing: var(--letter-spacing-text);
+    color: #FFFFFF;
+}

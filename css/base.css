@@ -1,0 +1,41 @@
+:root{
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-size-name-title: 38px;
+    --font-size-min-title: 20px;
+    --font-size-text: 18px;
+    --font-size-min-text: 16px;
+    --font-size-article-title: 36px;
+    --line-height-name-title: 38px;
+    --line-height-header-links: 23px;
+    --line-height-article-title: 50px;
+    --line-height-article-text: 28px;
+    --line-height-comment-min: 16px;
+    --line-height-comment-reg: 20px;
+    --line-height-comment-more: 22px;
+    --line-height-aside-link: 34px;
+    --line-height-aside-folow-title: 26px;
+    --letter-spacing-title: 1.1px;
+    --letter-spacing-text: 1.5px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Mulish', sans-serif;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+button{
+    border: none;
+}
